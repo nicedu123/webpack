@@ -1,0 +1,112 @@
+.list-item {
+   /*position: absolute;*/
+   margin-top: 6px;
+  display:block;
+  height:300px;
+  width: 500px;
+  border: 1px solid red;
+  margin-right: 10px;
+  font-size: 48px;
+
+}
+.list-enter-active, .list-leave-active {
+  transition: all 1s;
+}
+.list-enter, .list-leave-active {
+  opacity: 0;
+  transform: translateX(30px);
+}
+.innercontent{
+  position: absolute;
+  margin-top:16px;
+  margin-left: 16px;
+  height:240px;
+  width: 468px;
+  border: 1px solid green;
+}
+.mark
+{
+    height: 48px;
+    width: 122px;
+    position: relative;
+    display: inline-block;
+    bottom: -22px;
+    left: -2px;
+    margin-left: 16px;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 4px;
+}
+.bgimg
+{
+    height: 200px;
+    width: 466px;
+    border: 1px solid black;
+    top: 16px;
+    position: relative;
+    left: 16px;
+    background-size: cover;
+    background-position: center;
+}
+.delete_button
+{
+    height: 33px;
+    width: 77px;
+    position: relative;
+    left: 385px;
+    top: -217px;
+    border: 1px solid white;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+}
+.mark_style1
+{
+    height: 37px;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    bottom: -55px;
+    left: -2px;
+    margin-left: 16px;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 4px;
+    color: green;
+}
+.mark_style2
+{
+    height: 37px;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    bottom: -55px;
+    left: -2px;
+    margin-left: 16px;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    border: 1px dashed black;
+    border-radius: 4px;
+}
+.scan
+{
+    position: relative;
+    top: -248px;
+    left: 20px;
+    font-size: 28px;
+    height: 28px;
+    line-height: 28px;
+    color: white;
+}
+.title
+{
+    position: relative;
+    top: -85px;
+    font-size: 28px;
+    left: 16px;
+}

@@ -1,0 +1,12 @@
+<div id="list-demo" class="demo">
+	 <transition-group name="list" tag="p">
+	    <div v-for="(item,index) in items" v-bind:key="index" class="list-item" v-bind:data-index="(index)">
+	        <div class='bgimg' :style="{backgroundImage: 'url(' + item.imgurl + ')'}"></div>
+	        <div v-for='(mark,index) in item.mark' :class="[styleselect(index,item) ? activeClass : errorClass]" @click='show1(index)' :data-index="index">{{mark}}</div>
+	        <div class='delete_button' v-on:click='show()'>删除</div>
+	        <div class='scan'>浏览次数 : {{item.scan}}</div>
+	        <div class='title'>{{item.title}}</div>
+	    </div>
+    </transition-group>
+</div>
+<script src="./index.js"></script>
